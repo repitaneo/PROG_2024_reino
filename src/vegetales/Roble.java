@@ -1,6 +1,9 @@
 package vegetales;
 
-public class Roble extends Vegetal {
+import interfaces.SerVivo;
+
+public class Roble extends Vegetal 
+	implements SerVivo {
 
 	private int diametroTronco;
 
@@ -34,6 +37,20 @@ public class Roble extends Vegetal {
 	public String toString() {
 		return "Roble [(" + diametroTronco + ")]\n"
 				+super.toString();
+	}
+
+
+	@Override
+	public int numeroCorazones() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	@Override
+	public int esperanzaVida() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	

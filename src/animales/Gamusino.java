@@ -38,6 +38,41 @@ public class Gamusino extends Animal
 		return "Gamusino [" + existe + "]\n"
 				+super.toString();
 	}
+
+
+	@Override
+	public int numeroCorazones() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	@Override
+	public int esperanzaVida() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	@Override
+	public int periodoGestacion() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	@Override
+	public int numeroMamas() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	@Override
+	public int duracionLactancia() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 	
 	
