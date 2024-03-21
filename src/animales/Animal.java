@@ -31,8 +31,8 @@ public abstract class Animal extends Materia {
 		return dientes;
 	}
 	public void setDientes(int dientes) {
-		if(dientes<2) {
-			this.dientes = 2;
+		if(dientes<0) {
+			this.dientes = 0;
 		}
 		else this.dientes = dientes;
 	}

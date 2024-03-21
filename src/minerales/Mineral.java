@@ -46,7 +46,7 @@ public abstract class Mineral extends Materia {
 
 	@Override
 	public String toString() {
-		return "Mineral [" + tipo + " (" + dureza + "DUR)]"
+		return "Mineral [" + tipo + " (" + dureza + "DUR)]\n"
 				+super.toString();
 	}
 	

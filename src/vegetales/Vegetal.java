@@ -40,7 +40,7 @@ public abstract class Vegetal extends Materia {
 
 	@Override
 	public String toString() {
-		return "Vegetal [" + hojaCaduca + "CAD (" + tipo + ")]"
+		return "Vegetal [" + hojaCaduca + "CAD (" + tipo + ")]\n"
 				+super.toString();
 	}
 	
